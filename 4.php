@@ -23,4 +23,12 @@ $s2 = Singleton::getInstance();
 
 echo $s1->data;
 echo '<br>';
-echo $s1->data;
+echo $s2->data;
+$a = 'здорово';
+$string = "String $a string";
+echo $string;
+
+echo "новая строка \n новая строка";
+echo "<br>";
+$hello = "Hello!";
+echo $hello[5];

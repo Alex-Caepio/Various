@@ -15,3 +15,5 @@ use App\Http\Controllers\NewsletterController;
 */
 
 Route::get('/', [NewsletterController::class, 'index']);
+
+Route::get('event', [NewsletterController::class, 'event']);
